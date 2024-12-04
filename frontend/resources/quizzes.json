@@ -1,0 +1,10 @@
+{
+    "Python Basics": {
+        "question": "What is the output of print(2 + 2)?",
+        "answer": "4"
+    },
+    "Data Structures": {
+        "question": "Which data structure is used for LIFO?",
+        "answer": "Stack"
+    }
+}
