@@ -1,0 +1,4 @@
+backend/.env
+backend/venv
+backend/mem0_client.py
+backend/dashboard.py
