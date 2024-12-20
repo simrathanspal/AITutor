@@ -1,0 +1,6 @@
+.env
+venv
+mem0_client.py
+dashboard.py
+**/__pycache__/
+tmp
