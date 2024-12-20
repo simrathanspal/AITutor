@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/17/07/05/cherry-blossom-3230950_1280.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1, h2, h3 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #FF6F91; /* Deep cherry blossom accent */
+}
+.sidebar .sidebar-content {
+    background-color: #FFE5EC !important; /* Match sidebar to theme */
+}

@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FFB7C5"      # Soft pink
+backgroundColor = "#FFF1F3"   # Light cherry blossom pink
+secondaryBackgroundColor = "#FFE5EC" # Slightly darker pink
+textColor = "#5A5A5A"         # Neutral text color
+font = "sans serif"
