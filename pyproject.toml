@@ -1,0 +1,11 @@
+[project]
+name = "aitutor"
+version = "0.1.0"
+description = "Code Blossom's AI Tutor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.21",
+    "langgraph>=0.3.18",
+    "langsmith>=0.3.18",
+]
