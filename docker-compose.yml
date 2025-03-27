@@ -1,0 +1,17 @@
+name: ai_tutor_storage
+services:
+  local_dev_atlas:
+    image: mongodb/mongodb-atlas-local:8.0
+    hostname: local_dev_atlas
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - data:/data/db
+      - config:/data/configdb
+
+volumes:
+  data:
+  config:
