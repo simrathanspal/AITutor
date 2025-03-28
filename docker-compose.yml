@@ -9,8 +9,8 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
-      - data:/data/db
-      - config:/data/configdb
+      - ./mongodb/data:/data/db # Maps the 'mongodb/data' directory on your host to '/data/db' in the container
+      - ./mongodb/config:/data/configdb # Maps the 'mongodb/config' directory on your host to '/data/configdb' in the container
 
 volumes:
   data:
