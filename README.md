@@ -11,7 +11,7 @@ Follow below steps:
 3. Run command `brew install make` on macOS. 
 3. [Download docker](https://www.docker.com/products/docker-desktop/) if not already available, install and open it.
 4. Set up [GitHub co-pilot for free](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/about-github-copilot-free)
-5. Run command `make local-db-up` to start the local MongoDB database.
+5. Run command `make local-db-up` to start the local MongoDB database. This will create a folder called `mongodb` in the root directory of the project for the db files.
 
 
 #### Setting up virtual environment on VSCode
